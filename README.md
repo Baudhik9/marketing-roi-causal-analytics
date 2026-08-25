@@ -67,16 +67,28 @@ The dataset includes a built-in treatment/control structure (some users were exp
 
 ## Dashboard Preview
 
-| Page | Description |
-|---|---|
-| Cover | Project title, scope, and tools |
-| Executive Overview | Spend, revenue, ROAS, conversion rate, campaign comparison |
-| Channel Deep-Dive | Impressions/clicks/conversions by channel, campaign performance table |
-| Attribution Model Comparison | Naive vs. causal ROI, exposed vs. control conversion rates |
-| Insight Summary | Key takeaways and flagged caveats |
-| Summary & Recommendations | Key findings and actionable next steps |
+### Cover
+![Cover](01_cover.png)
 
-*(See `/screenshots` folder for full-page images of each dashboard page.)*
+### Executive Overview
+Spend, revenue, ROAS, conversion rate, and campaign-level comparison at a glance.
+![Executive Overview](02_executive_overview.png)
+
+### Channel Deep-Dive
+Impressions, clicks, and conversions by channel, with campaign-level performance.
+![Channel Deep-Dive](03_channel_deep_dive.png)
+
+### Attribution Model Comparison
+Naive vs. causal ROI, and exposed vs. control conversion rates by channel.
+![Attribution Model Comparison](04_attribution_comparison.png)
+
+### Insight Summary
+Key takeaways and flagged caveats, including the non-significant Email uplift.
+![Insight Summary](05_insight_summary.png)
+
+### Summary & Recommendations
+Final findings and actionable next steps.
+![Summary](06_summary.png)
 
 ---
 
@@ -90,11 +102,8 @@ The dataset includes a built-in treatment/control structure (some users were exp
 ## Repository Structure
 
 ├── README.md
-├── powerbi/
-│ └── marketing_roi_dashboard.pbix
-├── data/
-│ └── cleaned_dataset.xlsx
-└── screenshots/
+├── Marketing Campaigns ROI Analysis.pbix
+├── Market Campaign Project Dataset.xlsx
 ├── 01_cover.png
 ├── 02_executive_overview.png
 ├── 03_channel_deep_dive.png
@@ -108,7 +117,7 @@ The dataset includes a built-in treatment/control structure (some users were exp
 ## How to Run
 
 1. Clone the repository
-2. Open `powerbi/marketing_roi_dashboard.pbix` in Power BI Desktop (free)
+2. Open `Marketing Campaigns ROI Analysis.pbix` in Power BI Desktop (free)
 3. All measures and calculations are visible in the Power BI data model (Modeling tab)
 
 ---
@@ -124,5 +133,4 @@ The dataset includes a built-in treatment/control structure (some users were exp
 ## Author
 
 **Baudhik Madan**
-[LinkedIn](https://linkedin.com/in/baudhik-madan)  
-[GitHub](https://github.com/Baudhik9)
+[LinkedIn](https://linkedin.com/in/baudhik-madan) · [GitHub](https://github.com/Baudhik9)
