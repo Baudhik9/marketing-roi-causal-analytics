@@ -97,20 +97,6 @@ Final findings and actionable next steps.
 - **Excel** — data cleaning and preprocessing (currency conversion, category standardization, error correction)
 - **Power BI** — all analysis, DAX measures, and visualization: KPI cards, dual-axis comparisons, drill-through, native Q&A
 
----
-
-## Repository Structure
-
-├── README.md
-├── Marketing Campaigns ROI Analysis.pbix
-├── Market Campaign Project Dataset.xlsx
-├── 01_cover.png
-├── 02_executive_overview.png
-├── 03_channel_deep_dive.png
-├── 04_attribution_comparison.png
-├── 05_insight_summary.png
-└── 06_summary.png
-
 
 ---
 
